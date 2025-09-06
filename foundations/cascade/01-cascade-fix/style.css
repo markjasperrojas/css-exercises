@@ -1,4 +1,6 @@
-body {
+/* back-up */
+
+/* body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,7 +23,7 @@ body {
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -30,6 +32,47 @@ body {
 }
 
 .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+} */
+
+/* --- */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para {
+  font-size: 22px;
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
