@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex UL Example</title>
+    <style>
+      .nav {
+        display: flex; /* makes <li> items flex children */
+        justify-content: space-around; /* space evenly across container */
+        background: #333;
+        padding: 10px;
+        list-style: none; /* remove bullet points */
+        margin: 0;
+      }
+
+      .nav li {
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+      }
+
+      .nav li:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="nav">
+      <li>Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Contact</li>
+    </ul>
+  </body>
+</html>
